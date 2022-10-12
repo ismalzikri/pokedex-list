@@ -1,0 +1,25 @@
+{
+  "name": "minha_pokedex",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "axios": "^0.27.2",
+    "core-js": "^3.6.5",
+    "pinia": "^2.0.17",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.54.4",
+    "sass-loader": "^10.1.1"
+  }
+}

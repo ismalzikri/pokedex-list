@@ -1,0 +1,15 @@
+$poke-types: "bug" #c9ff78 #35d82f, "dark" #cacaca #575757,
+  "dragon" #4693bd #ff5a4e, "electric" #fff4ab #ffe433,
+  "fighting" #ffa488 #c75c1a, "fairy" #fdb9e9 #ff4dca,
+  "fire" #fffd75 #fd5724, "flying" #a4ebff #52d2f5,
+  "ghost" #c29cff #3e00a0, "grass" #ffb1ff #72ff6d,
+  "ground" #ffe3ae #c5b759, "ice" #c5f1ff #5ad2f6,
+  "normal" #b0eeff #a4acaf, "poison" #eeaeff #b97fc9,
+  "psychic" #f9ff9f #f366b9, "rock" #fff5a6 #807940,
+  "steel" #eafeff #bbbbbb, "water" #8ec8ff #2780d4;
+
+@each $type, $color-1, $color-2 in $poke-types {
+  .#{$type} {
+    background: linear-gradient(180deg, $color-1, $color-2);
+  }
+}
