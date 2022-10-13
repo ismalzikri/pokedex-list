@@ -39,6 +39,7 @@
                 :skills="pokemon.data"
               />
             </li>
+            <Observer @intersect="handleSeeMore" />
           </ul>
         </div>
       </section>
@@ -68,6 +69,7 @@
 
 <script>
   import Pokemon from "@/components/Pokemon/index";
+  import Observer from "@/components/Observer"
   import PokemonSkillsModal from "./partials/PokemonSkillsModal";
   import { usePokedexStore } from "../store";
   import { mapActions, mapState } from "pinia";
@@ -76,6 +78,7 @@
     name: "App",
     components: {
       Pokemon,
+      Observer,
       PokemonSkillsModal,
     },
 
